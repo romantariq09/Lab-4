@@ -41,10 +41,17 @@ function populateHeader() {
 function showTopFlavors() {
     // STEP 10c: Attache the JSON topFlavors object to a variable
     //let topFlavors = jsonObj.topFlavors;
+     const topFlavors = jsonObj.topFlavors;
     // STEP 10d: Loop through the topFlavors object
     for (let i = 0; i < topFlavors.length; i ++) {
+         const flavor = topFlavors[i];
         // STEP 10e: build HTML elements for the content
-        
+        const article = document.createElement('article');
+        const h2 = document.createElement('h2');
+        const pType = document.createElement('p');
+        const pCalories = document.createElement('p');
+        const ul = document.createElement('ul');
+        const img = document.createElement('img');
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         
