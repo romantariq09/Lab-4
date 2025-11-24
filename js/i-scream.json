@@ -1,63 +1,30 @@
 {
-  "companyName": "I Scream Inc.",
-  "headOffice": "South Pole, Antarctica",
-  "established": 2001,
-  "active": true,
-  "topFlavors": [
+  "companyName" : "I Scream Inc.",
+  "headOffice" : "South Pole, Antarctica",
+  "established" : 2001,
+  "active" : true,
+  "topFlavors" : [
     {
-      "name": "Monstrous Mint",
-      "calories": 400,
-      "type": "ice cream",
-      "ingredients": [
+      "name" : "Monstrous Mint",
+      "calories" : 400,
+      "type" : "ice cream",
+      "ingredients" : [
         "peppermint cream",
         "dark chocolate chips",
         "vanilla extract"
       ],
-      "image": "chocolate-mint.svg"
+      "image" : "chocolate-mint.svg"
     },
     {
-      "name": "Perfect Peach Mango",
-      "calories": 350,
-      "type": "sorbet",
-      "ingredients": [
+      "name" : "Perfect Peach Mango",
+      "calories" : 350,
+      "type" : "sorbet",
+      "ingredients" : [
         "peach purée",
         "mango chunks",
         "clover honey"
       ],
-      "image": "peach-mango.svg"
-    },
-    {
-      "name": "Berry Blizzard",
-      "calories": 320,
-      "type": "ice cream",
-      "ingredients": [
-        "strawberries",
-        "cream",
-        "sugar sprinkles"
-      ],
-      "image": "strawberry-sprinkle.svg"
-    },
-    {
-      "name": "Galactic Grape Swirl",
-      "calories": 280,
-      "type": "frozen yogurt",
-      "ingredients": [
-        "grape purée",
-        "yogurt base",
-        "purple food swirl"
-      ],
-      "image": "ice-cream-xtra1.svg"
-    },
-    {
-      "name": "Choco Lava Crunch",
-      "calories": 450,
-      "type": "ice cream",
-      "ingredients": [
-        "chocolate cream",
-        "lava fudge",
-        "crunchy cookie bits"
-      ],
-      "image": "ice-cream-xtra2.svg"
+      "image" : "peach-mango.svg"
     }
   ]
 }
