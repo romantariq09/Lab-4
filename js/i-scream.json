@@ -25,8 +25,8 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
-    }
-  ]
+    },
+  
    {
       "name": "Berry Blizzard",
       "calories": 320,
@@ -34,4 +34,15 @@
       "ingredients": ["strawberries", "cream", "sugar sprinkles"],
       "image": "strawberry-sprinkles.svg"
     },
+    {
+      "name": "Galactic Grape Swirl",
+      "calories": 280,
+      "type": "frozen yogurt",
+      "ingredients": ["grape purée", "yogurt base", "purple food swirl"],
+      "image": "ice-cream-xtra1.svg"
+    },
+    
+
+
+  ]
 }
