@@ -82,8 +82,14 @@ function showTopFlavors() {
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
-        
-    };
+                // Append elements (STEP 10h–10i)
+        article.appendChild(img);
+        article.appendChild(h2);
+        article.appendChild(pType);
+        article.appendChild(pCalories);
+        article.appendChild(ul);
+        section.appendChild(article);
+    }
 };
 // STEP 11: The instructor will edit the JSON file - refresh your page to see the updated content
 
