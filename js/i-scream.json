@@ -41,8 +41,13 @@
       "ingredients": ["grape purée", "yogurt base", "purple food swirl"],
       "image": "ice-cream-xtra1.svg"
     },
-    
-
+    {
+      "name": "Choco Lava Crunch",
+      "calories": 450,
+      "type": "ice cream",
+      "ingredients": ["chocolate cream", "lava fudge", "crunchy cookie bits"],
+      "image": "ice-cream-xtra2.svg"
+    }
 
   ]
 }
