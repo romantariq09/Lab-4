@@ -67,6 +67,17 @@ function showTopFlavors() {
             ul.appendChild(li);
         }
             // add the ingredient to the UL
+        // Apply "interesting" logic:
+        // Highlight high-calorie flavours
+        if (flavor.calories >= 300) {
+            pCalories.style.color = "red";
+            pCalories.style.fontWeight = "bold";
+        }
+
+        // Add special badge for special type
+        if (flavor.type === "special") {
+            h2.textContent += "  Limited!";
+        }
 
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         
