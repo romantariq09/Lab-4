@@ -6,7 +6,8 @@ const section = document.querySelector('section');
 async function populate() {
     // Introducing JavaScript Object Notation (JSON): https://json.org/
     // STEP 4: Store the URL of a JSON file in a variable */
-     const requestURL = 'js/iscream.json';
+    const requestURL = 'js/i-scream.json';
+
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(requestURL);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
@@ -14,7 +15,7 @@ async function populate() {
     // STEP 7: Capture the returned Response object and covert to a JSON object using json()
     
     // STEP 8: Output the iScream JSON object to the console 
-      const jsonObj = await request.json();
+      const jsonObj = await response.json();
 
     console.log(jsonObj);
     // STEP 9a: Invoke the populateHeader function here, then build it below
@@ -29,7 +30,7 @@ async function populate() {
 populate();
 
 /* STEP 9b: Build out the populateHeader() function */
-function populateHeader() {
+function populateHeader(jsonObj) {
     // Create the H1 element
      const h1 = document.createElement('h1');
     // Grab the company name from the JSON object and use it for the text node
@@ -38,7 +39,7 @@ function populateHeader() {
      header.appendChild(h1);
 };
 /* STEP 10b: Assemble the showTopFlavors() function */
-function showTopFlavors() {
+function showTopFlavors(jsonObj) {
     // STEP 10c: Attache the JSON topFlavors object to a variable
     //let topFlavors = jsonObj.topFlavors;
      const topFlavors = jsonObj.topFlavors;
