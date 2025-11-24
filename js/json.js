@@ -54,10 +54,18 @@ function showTopFlavors() {
         const img = document.createElement('img');
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-        
+          h2.textContent = flavor.name;
+        pType.textContent = `Type: ${flavor.type}`;
+        pCalories.textContent = `Calories: ${flavor.calories}`;
+        img.src = flavor.image;
+        img.alt = flavor.name + " ice cream";
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
-        
+         for (let j = 0; j < flavor.ingredients.length; j++) {
+            const li = document.createElement('li');
+            li.textContent = flavor.ingredients[j];
+            ul.appendChild(li);
+        }
             // add the ingredient to the UL
 
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
