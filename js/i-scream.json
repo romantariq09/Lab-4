@@ -27,4 +27,11 @@
       "image" : "peach-mango.svg"
     }
   ]
+   {
+      "name": "Berry Blizzard",
+      "calories": 320,
+      "type": "ice cream",
+      "ingredients": ["strawberries", "cream", "sugar sprinkles"],
+      "image": "strawberry-sprinkles.svg"
+    },
 }
